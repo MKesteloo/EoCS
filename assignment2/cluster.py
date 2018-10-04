@@ -79,5 +79,3 @@ plt.show()
 # This does not work yet. Extracting raw samples from each cluster
 # https://stackoverflow.com/questions/15951711/how-to-compute-cluster-assignments-from-linkage-distance-matrices-in-scipy-in-py
 cluster = fcluster(Z, 20)
-for elem in cluster:
-    print elem

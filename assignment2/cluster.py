@@ -23,8 +23,17 @@ with open('processed_data.csv', 'rb') as f:
 # unique only
 ips = [list(x) for x in set(tuple(x) for x in ips)]
 
-for ip1 in ips:
-    for ip2 in ips:
-        if ip1 == ip2:
-            continue
-        print ip1, ip2, distance(ip1, ip2)
+# for ip1 in ips:
+#     for ip2 in ips:
+#         if ip1 == ip2:
+#             continue
+#         print ip1, ip2, distance(ip1, ip2)
+
+
+# Create dendrogram to determine optimal number of clusters
+import plotly.plotly as py
+import plotly.figure_factory as ff
+from plotly.offline import offline
+
+fig = ff.create_dendrogram(np.array(ips))
+offline.plot(fig, filename='file.html')

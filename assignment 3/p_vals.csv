@@ -1,0 +1,8 @@
+,#infections,RoL,E-Participation,Extent of staff training,Capacity of innovation,% of internet users,Secure internet servers
+#infections,0.0,0.7069,0.2597,0.3939,0.0329,0.407,0.3377
+RoL,0.7069,0.0,0.0073,0.0035,0.0032,0.0002,0.0002
+E-Participation,0.2597,0.0073,0.0,0.0616,0.0179,0.0033,0.0071
+Extent of staff training,0.3939,0.0035,0.0616,0.0,0.0,0.0009,0.0017
+Capacity of innovation,0.0329,0.0032,0.0179,0.0,0.0,0.0001,0.001
+% of internet users,0.407,0.0002,0.0033,0.0009,0.0001,0.0,0.0001
+Secure internet servers,0.3377,0.0002,0.0071,0.0017,0.001,0.0001,0.0
